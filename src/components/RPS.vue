@@ -98,13 +98,10 @@ export default defineComponent({
        */
       if (outcome === "win") {
         win.value++;
-        console.log(outcome);
       } else if (outcome === "lose") {
         lose.value++;
-        console.log(outcome);
       } else {
         draw.value++;
-        console.log(outcome);
       }
       savegame();
     };
